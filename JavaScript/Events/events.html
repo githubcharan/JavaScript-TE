@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+
+<body>
+    <h1 id="username">Ajay</h1>
+    <button onclick="testclick()">Click</button>
+    <button onclick="changeName('Charan')">Change Name</button>
+    <h2 id="changeColor" onmouseout="removeBgColor()" onmouseover="applyBgColor()">
+        hover onmouseover
+    </h2>
+    <h3 id="colorChange" onmouseout="bgColorChange('white'),textColorChange('red')" onmouseover="bgColorChange('red'),textColorChange('white')">
+        hover on mouse
+    </h3>
+    <!--
+    <hr>
+    <input type="text" onkeyup="getData()" onkeydown="showData()">
+
+    <p id="show"></p>
+    <input type="checkbox" id="hobbies" onclick="checkBoxClick()"> -->
+    <script src="./events.js"></script>
+</body>
+
+</html>

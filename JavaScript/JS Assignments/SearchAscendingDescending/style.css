@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(225, 241, 149);
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+button {
+    border-radius: 25px;
+    height: 30px;
+    width: auto;
+    color: white;
+    background-color: black;
+}
+
+li {
+    list-style: none;
+}

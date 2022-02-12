@@ -1,0 +1,50 @@
+* {
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(42, 173, 235);
+    padding: 20px;
+    height: auto;
+    width: 50vh;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.container input {
+    padding: 10px;
+    width: auto;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 3px solid;
+}
+
+#submit {
+    font-size: x-large;
+    font-weight: 200;
+}
+
+button {
+    font-size: x-large;
+    font-weight: 200;
+}
+
+div h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+table {
+    border: 1 black;
+}

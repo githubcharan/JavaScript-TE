@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_with_LocalStorage</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" id="form" method="post" name="myform" onsubmit="return false ">
+            <div>
+                <h1>Student Registration form</h1>
+            </div><br>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="ram" class="valid invalid">
+            <span id="nameError" class="error"></span>
+
+            <br>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" placeholder="15" class="valid invalid">
+            <span id="ageError" class="error"></span>
+            <br>
+
+            <br>
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male" class="valid invalid">Male
+            <input type="radio" id="female" name="gender" value="female" class="valid invalid">Female
+            <span id="genderError" class="error"></span>
+            <br>
+
+            <label for="phnumber">Mobilenumber</label><br>
+            <input type="number" id="phnumber" placeholder="9988776655" class="valid invalid">
+            <span id="phnumberError" class="error"></span>
+            <br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="abc@gmail.com" class="valid invalid">
+            <span id="emailError" class="error"></span>
+            <br>
+
+            <button type="submit" class="button" id="submit">submit</button>
+            <button type="reset" class="button">clear form</button><br><br>
+            <button type="button" class="button" onclick="deleteData()">clear local Storage</button>
+            <!-- <button type="button" class="button" onclick="getData()">getData from local Storage</button> -->
+        </form>
+    </div>
+    <br><br>
+    <div id="tableData">
+
+    </div>
+    <div id="gettableData">
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

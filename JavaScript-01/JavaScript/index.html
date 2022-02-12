@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // Javascript code 
+        // variables 
+        var message = 'Hello World'
+        var myName = "Chandan 'K'  "
+        var greet = `My Name ${myName}`
+
+        console.log(message)
+        console.log(message)
+        console.log(message)
+        console.log(message)
+        console.log(message)
+        console.log('My Name 2+3' + myName)
+        console.log('greet ', greet)
+        // number 
+        var age = 22
+        console.log(age);
+
+        // boolean 
+        var hadGirlfriend = false
+        console.log(hadGirlfriend);
+
+        var willHaveBoyFriend = false
+        console.log(willHaveBoyFriend);
+
+        // undefined
+        var willMarry
+        console.log(willMarry);
+
+        // null 
+        var haveKids = null
+        console.log(haveKids);
+
+        var num = 5
+        num = num + 10
+
+        num += 10 // num = num + 10
+        console.log(num);
+
+        console.log('==============================');
+
+        var val = 10
+        var str = '10'
+
+        // never ever use == in javascript
+        // if(val == str) {
+        //     console.log('Both are equal');
+        // } else {
+        //     console.log('Both are not equal');
+        // }
+
+        // always use strict equal to === 
+        if (val === str) {
+            console.log('Both are equal');
+        } else {
+            console.log('Both are not equal');
+        }
+
+        var myAge = 2
+        // if (myAge >= 18) {
+        //     console.log('Eligible for Voting');
+        // } else {
+        //     console.log('Not Eligible for Voting');
+        // }
+
+        myAge >= 18 ? console.log('Eligible for Voting') :
+            console.log('Not Eligible for Voting');
+
+        // case 1 : per >=70 FCD
+        // case 2 : per >=60 && per<70 First Class
+        // case 3 : per > =35 && per <60 Pass
+        // case 4 : per <35 && per>0 Fail 
+        // case 5 : per <0 || per > 100 || per == 'hello'   Invalid
+
+
+        // 5 is not a Number  // false
+        // 10 is not a NUmber // false 
+        // 'aa' is not a number // true 
+        var per = 100
+        // typeof(per)   // number , string, boolean , undefined, object
+        if (per < 0 || per > 100 || typeof (per) !== 'number' ||
+            isNaN(per) === true) {
+            console.log('Invalid');
+        } else if (per >= 70 && per <= 100) {
+            console.log('FCD');
+        } else if (per >= 60 && per < 70) {
+            console.log('First Class');
+        } else if (per >= 35 && per < 60) {
+            console.log('Pass');
+        } else {
+            console.log('Fail');
+        }
+
+
+        var result = (per < 0 || per > 100 || typeof (per) !== 'number' ||
+            isNaN(per) === true) ? 'Invalid' :
+            (per >= 70 && per <= 100) ? 'FCD' :
+                (per >= 60 && per < 70) ? 'First Class' :
+                    (per >= 35 && per < 60) ? 'Pass' : 'Fail'
+        console.log('Result', result);
+
+        var names = ' Harish Azeem Saurav Adarsh Govardhan Harshita'
+    </script>
+</head>
+
+<body>
+    <button>
+        Click
+    </button>
+    <h1>Hello</h1>
+    <p>Welcome</p>
+    <h2>Hello</h2>
+
+    <script>
+        console.log('Body Section');
+        console.log(typeof 123);
+        console.log(typeof null);
+        console.log(typeof undefined);
+        // 1. Inline 
+        // 2. Internal
+        // 3. External
+
+    </script>
+</body>
+
+</html>

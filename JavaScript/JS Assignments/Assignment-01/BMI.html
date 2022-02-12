@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-01(BMI CHART)</title>
+    <script>
+        const height_meters = 1.80
+        const weight_kg = 75
+        const BMI = weight_kg / (height_meters * height_meters)
+
+        //Using ternary Operator
+        const result = (BMI < 0 || typeof(BMI) !== 'number' || isNaN(BMI) == true) ? 'Invalid' :
+            (BMI < 18.5) ? 'Under Weight' :
+            (BMI >= 18.5 && BMI <= 24.9) ? 'Normal Weight' :
+            (BMI >= 25.0 && BMI <= 29.9) ? 'Over Weight' :
+            (BMI >= 30.0 && BMI <= 34.9) ? 'Obese class I' :
+            (BMI >= 35.0 && BMI <= 39.9) ? 'Obese class II' : 'Obese class III'
+        console.log('BMI =', BMI)
+        console.log('Result =', result)
+
+        // Using if else
+        if (BMI < 0 || typeof(BMI) !== 'number' || isNaN(BMI) == true) {
+            console.log('Invalid')
+        } else if (BMI < 18.5) {
+            console.log('Under Weight')
+        } else if (BMI >= 18.5 && BMI <= 24.9) {
+            console.log('Normal Weight')
+        } else if (BMI >= 25.0 && BMI <= 29.9) {
+            console.log('Over Weight')
+        } else if (BMI >= 30.0 && BMI <= 34.9) {
+            console.log('Obese class I')
+        } else if (BMI >= 35.0 && BMI <= 39.9) {
+            console.log('Obese class II')
+        } else {
+            console.log('Obesebclass III')
+        }
+    </script>
+</head>
+
+<body style="text-align: center;">
+    <h1 style="color: red;">Assignment-01</h1>
+    <p>1. Calculate BMI and print the results using ternary operator and if else statement</p>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.labelTag {
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.labelBg {
+    background-color: darkblue;
+    border: 4px solid yellow
+}
+
+#namelist {
+    /* space required by the element will be preserved */
+    /* visibility: hidden; */
+    /* space required by the element will not be preserved */
+    display: none;
+}

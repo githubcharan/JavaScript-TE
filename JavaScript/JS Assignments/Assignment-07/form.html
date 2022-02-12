@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <header>
+                <h2>Register Here</h2>
+            </header>
+        </div>
+        <form class="form" id="form" method="post" name="myform">
+            <div class="field">
+                <label>Name</label>
+                <input type="text" placeholder="abc" id="name">
+                <span class="material-icons success"> check_circle</span>
+                <span class="material-icons error ">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>Age</label>
+                <input type="number" placeholder="123" id="age">
+                <span class="material-icons success"> check_circle</span>
+                <span class="material-icons error ">error</span>
+                <small id="ageError">Error message</small>
+            </div>
+            <div class="field">
+                <label>email</label>
+                <input type="email" placeholder="abc@email.com" id="email">
+                <span class="material-icons success"> check_circle</span>
+                <span class="material-icons error ">error</span>
+                <small id="emailError">Error message</small>
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <input type="password" placeholder="Abc@123" id="password">
+                <span class="material-icons success"> check_circle</span>
+                <span class="material-icons error ">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>State</label>
+                <select name="state" id="state">
+                    <option value="-select-">-select-</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Telengana" >Telengana</option>
+                    <option value="Tamilnadu">Tamilnadu</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Maharastra">Maharastra</option>
+                </select>
+                <small id="stateErrorMsg">Error message</small>
+            </div>
+            <div class="field">
+                <label>Gender: </label><br>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <small id="genderErrorMsg">Error message</small>
+            </div>
+            <div class="filed">
+                <label>Subjects Studied: </label><br><br>
+                <input type="checkbox" id="sub1" value="Java">
+                <label for="">Java</label>
+                <input type="checkbox" id="sub2" value="JavaScript">
+                <label for="">JavaScript</label>
+                <input type="checkbox" id="sub3" value="React Js">
+                <label for="">React Js</label>
+                <input type="checkbox" id="sub4" value="Angular">
+                <label for="sub4">Angular</label><br>
+                <small id="subjectErrorMsg"></small><br>
+            </div>
+            <div class="field">
+                <input type="checkbox" id="tc" class="terms">Agree to terms and condition
+                <small>Error message</small>
+            </div>
+            <input type="submit" class="button">
+        </form>
+
+    </div>
+
+
+    <script src="./validation.js"></script>
+</body>
+
+</html>

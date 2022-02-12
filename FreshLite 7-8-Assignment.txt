@@ -1,0 +1,34 @@
+===================================================
+Assignment 1 ( Dec 20th )
+===================================================
+
+1. List 10 Javascript / Ecmascript Engines
+2. What is Javascript Engine 
+3. What is diff bw Javascript and Ecmascript
+4. What is diff bw ECMA and Ecmascript 
+5. Data types in Javascript with example 
+6. Difference bw null and undefined 
+https://dorey.github.io/JavaScript-Equality-Table/
+7. Difference bw primitive and reference types
+8. Difference bw == and ===
+9. Calculate BMI and print results using 
+ternary operator and if else statements
+===================================================
+Assignment 2 ( Dec 21th )
+===================================================
+1. Create 5 objects without using new keyword 
+with one function
+2. Create 5 objects using new keyword 
+with one function 
+3. Go through JS Comparison tables - https://dorey.github.io/JavaScript-Equality-Table/ 
+4. Two examples for each primitive type 
+using typeof operator 
+5. Create 5 arrays without using new keyword 
+with all primitive types and object and 
+loop using for loop
+6. Create 5 arrays using new keyword 
+with all primitive types and object and 
+loop using for loop
+7. Display Day using Date object 
+	Input - new Date('Sept 12 2020')
+	Output - Sat, Sep 12 2020 

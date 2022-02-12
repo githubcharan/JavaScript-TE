@@ -1,0 +1,536 @@
+==================
+Day 1  - Dec 20th
+==================
+
+ECMAScript
+JS Engine 
+
+
+
+
+
+
+
+
+
+
+
+==================
+Day 2  - Dec 21th
+==================
+
+External JS 
+.js extension 
+<script src="path of js file" >
+
+</script>
+Marker 
+
+properties - 
+	color
+	weight
+	height
+	width
+behaviors - 
+	write 
+	
+Person 
+	properties -
+		height
+		weight
+		color
+		name
+		gender
+		age
+	behaviors - 
+		eating
+		sleeping
+		talking
+		walking
+		dancing
+		coding
+		drinking
+
+
+
+object 
+
+Syntax - 
+var var_name = {
+	key1 : value1,
+	key2 : value2,
+	..
+	..
+	..
+	..
+	keyn : valuen
+}
+
+Ex -
+var person = {
+	firstName : 'Allu Arjun',
+	lastName  : 'Arvind',
+	age       : 39,
+	gender    : 'Male',
+	isMarried : true,
+	getFullName : function() {
+		return this.firstName + ' ' + this.lastName
+	}
+
+}
+
+dot operator - .
+
+person.firstName   // Allu Arjun 
+person.lastName	   // Arvind
+person.age         // 39
+person.gender      // Male 
+
+
+
+
+PascalCase     -  PersonObject     Classes 
+camelCase	   -  personObject     variables / functions 
+kebab-case	   -  person-object		
+snake_case	   -  person_object 
+constants      -  PERSON_OBJECT  	PI 
+ 
+marker.price 
+
+marker['price']
+
+Rules to be followed while declaring variables 
+
+1. Should not start with numbers or special characters 
+except $ and _ 
+Ex - 123name  - Invalid 
+	 name123  - Valid
+2. Should not use reserved keywords as a variable name 
+Ex - var var = 'Hello'  - Invalid
+3. Thers should not be any spaces in between 
+	var first name = 'Ajay'   - Invalid
+4. case sensitive 
+	var fName = 'Ajit'
+	console.log(fname)   // Invalid
+	console.log(fName)   // valid 
+
+Arrays 
+
+Syntax 
+
+				   0      1       2           n-1
+var var_name = [value1, value2, value3,...., valuen]
+
+Ex - 
+				0			1			2
+var names = ['Saurav', 'Govardhan', 'Harish']
+
+console.log(names)
+
+names[1]    // 	Govardhan
+names[0]	//  Saurav 
+names[2]	//  Harish
+
+Syntax - 
+for (initialization; condition;inc/dec) {
+	// logic 
+}
+
+for (var i=0;i<5;i++) {
+	console.log('Hello')
+}
+
+
+i = 0 
+i = 1
+i =2
+i =3
+i =4 
+i =5
+				0		1	2		3
+var myArray = ['Ajay', 34, true, undefined, 
+4			5				
+null, {color:'black'}, 
+		6
+	0		1		2
+['black', 'blue', 'red']]
+
+myArray[2]            // true 
+myArray[4]           // null
+typeof(myArray[3])   // undefined 
+myArray.length 		 //  7 
+myArray[5].length    //  undefined
+myArray[5].color     // black
+myArray[5]['color']    // black 
+myArray[5]['co lor']   //  undefined 
+myArray[6].length      // 3
+myArray[6][0]          // black
+myArray[6][2-1]        // blue
+      
+	<HTML>
+	<htML>
+	<hTmL>
+	<html>
+	<HTml>
+	<HTMl>
+	
+	
+book = {
+	author : '',
+	title : '',
+	price : 12,
+	noOfPages : 300,
+	publisher : ''
+}
+
+var books = [  
+		{
+		author : '',
+	title : '',
+	price : 12,
+	noOfPages : 300,
+	publisher : ''	
+		},
+		
+		{
+		author : '',
+	title : '',
+	price : 12,
+	noOfPages : 300,
+	publisher : ''
+		},
+		
+		{
+		author : '',
+	title : '',
+	price : 12,
+	noOfPages : 300,
+	publisher : ''}
+
+  ]
+
+new Keyword 
+
+Syntax 
+
+var var_name = new Object()
+
+Ex - 
+var person = new Object()
+person.firstName = 'Ajit'
+person.lastName = 'K'
+person.age = 26
+person.gender = 'Male' 
+
+
+Syntax -
+
+var var_name = new Array(length)
+var var_name = new Array(value1, value2, value3)
+
+Ex - 
+var arr = new Array(10)
+arr.length // 10 
+arr[0]     // undefined
+
+var arr = new Array(10,12)
+arr.length  // 2 
+arr[0]     // 10 
+arr[1]     // 12
+
+
+getMonth() - returns number 
+
+0-January 
+1-Feb
+2-Mar
+3-Apr
+4-May
+5-June
+6-July
+7-Augus
+8-September
+9-October
+10-November 
+11-December 
+
+getDay - returns number 
+
+0- Sunday
+1-Monday
+2-Tuesday
+3-Wednesday
+4-Thursday
+5-Friday
+6-Saturday
+
+
+new Date ()  - returns system date 
+new Date(milliseconds)  - adds the milliseconds to january 1 1970
+new Date (string)
+Ex - new Date('December 21 2021') - date object 
+new Date (year, month)
+new Date(year,month,day,hours,minutes,seconds,milliseconds)
+
+dateObjVal.toLocaleDateString(locales,options )
+locales - string
+options - object 
+
+dateObjVal.toLocaleDateString('en-US',
+{ 
+weekday: 'long',
+month: 'long',
+year:'numeric',
+day: 'numeric'
+ } )
+
+==================
+Day 3  - Dec 22nd
+==================
+
+10,23,50,60,40 
+Min
+1. Arrange in ascending order 
+2. First element will be the smallest 
+
+
+Max 
+
+1. Arrange in ascending order
+2. Last element will be the largest 
+
+power 2,2 - 4
+power 2,3 - 8
+power 10,2 - 100
+power 10,3 - 1000
+power 34,56 - 
+
+sqrt (100)  - 10
+sqrt(81)   - 9
+sqrt(36)   - 6
+sqrt(200)  - 14.5
+sqrt(98989) - 
+
+19.2 - 19
+19.5 - 20 
+
+12.3 - 12
+12.8 - 13
+12.9 - 13
+12.5 - 13
+
+Math object - 
+	inbuilt functions to do basic mathematic operations
+Math.random() - random number from 
+
+0 to 1 (not inclusive)
+
+0
+0.89
+0.98
+0.99
+0.001
+0.1
+0.2
+0.3
+
+var a = 10
+var b = 20 
+
+var c = a+b 
+console.log(c)
+
+
+var e = 90
+var f = 10
+
+var g = e+f 
+console.log(g)
+
+var h = 20
+var i = 90
+
+var j = h+ i
+console.log(j)
+
+functions - 
+ Code reusability
+ 
+Named Functions  
+ 
+Syntax -
+
+function func_name(arg1, arg2, arg3,....,argn) {
+	// logic 
+}
+
+Ex - 
+
+function add(num1,num2) {
+	var sum = num1+num2
+	console.log(sum)
+}
+
+add(10,20)
+=================================
+Anonymous Function 
+
+Syntax - 
+function(arg1, arg2, ....,argn) {
+	// logic
+}
+
+Ex - 
+function(a,b) {
+	return a*b
+}
+
+
+var var_name = function() {
+
+
+}
+
+// Self Invoked Functions (IIFE) 
+// Immediately Invoked Function Expression
+
+Syntax - 
+	(function(arg1,arg2,arg3){
+	
+	
+	})(10,20,30)
+	
+Ex - 
+	(function(a,b){
+		var diff = b-a
+		console.log('Difference', diff)
+	})(20,30)
+	
+// Arrow functions 
+
+Syntax  - 
+Scenario 1 - No parameters and code is more than one line
+() => {
+	// code 
+	// code
+}
+
+Scenario 2 - Single parameter and code is more than one line
+arg1=> {
+	// code 
+	// code
+	return data
+}
+Scenario 3 - Multiple parameters and code is single line 
+(arg1,arg2)=>code 
+
+Scenario 4 - Single parameter and code is single line
+arg1=> arg1*arg1 
+
+1. If there is single parameter paranthesis is not 
+mandatory
+2. If there are no parameters or
+ multiple parameters paranthesis is mandatory
+3. If there are multiple lines of code curly braces are 
+mandatory and return statement should be added by 
+developer if required
+4. If there is single line of code curly braces is not 
+mandatory and return statement will be added by default
+
+
+Named Functions
+Anonymous Function
+Self Invoked Function (IIFE)
+Arrow Functions 
+
+----------------------------------
+Loop 			0  1  2  3
+var numbers = [10,20,30,40]
+
+// for loop 
+for (var i=0;i<numbers.length;i++) {
+	console.log(numbers[i])
+}
+
+2. for of loop 
+
+Syntax - 
+for (var value of array) {
+	// code 
+}
+var numbers = [10,20,30,40]
+
+Ex - for (var number of numbers) {
+	console.log(number)
+}
+
+index - 0 
+value - 10 
+number - 10 
+
+index - 1
+number - 20 
+
+index - 2
+number - 30
+
+index - 3
+number - 40
+
+-----------------------------------------------
+for in loop 
+
+Syntax - 
+for (var key in object) {
+	// code 
+}
+
+Ex - for (var key in person) {
+	console.log(person[key])
+}
+person.firstName 
+person['firstName']
+
+
+for loop - array / string 
+for of loop - array
+for in loop - objects / array
+
+Syntax - 
+for (var index in array) {
+	// code 
+}
+
+Ex - for (var index in numbers) {
+	console.log(index)
+	console.log(numbers[index])
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+

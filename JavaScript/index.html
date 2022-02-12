@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        //JavaScript code
+        //variables
+        var message = 'hello world'
+        var myname = "charan"
+        var greet = `My Name ${myname}`
+        var great = `My Name ${2+3}` //name+numberwith sum //${} we will write javascript code in those brackets mainly for concatination
+        var name = "Charan 'Teja'"
+        console.log(message)
+        console.log(myname)
+        console.log(myname + 'Ekambaram'); //concatination
+        console.log(name);
+        console.log(great);
+        console.log('greet', greet);
+
+
+        //number
+
+        var age = 22
+        console.log(age);
+
+        //boolean
+        var areyouboy = true
+        console.log(areyouboy);
+
+        var hadGirlfriend = false
+        console.log(hadGirlfriend);
+
+        //undefined
+        var willMarry
+        console.log(willMarry);
+
+        //null
+        var havekids = null
+        console.log(havekids);
+
+        //ternory operator
+        var num
+
+        var myage = 24
+        myage >= 18 ? console.log('eligibale for voting') : console.log('not eligibale for voting')
+
+
+        var per = 65
+            // using if else
+        if (per < 0 || per > 100 || typeof(per) !== 'number' || isNaN(per) == true) {
+            console.log('Invalid')
+        } else if (per >= 70 && per <= 100) {
+            console.log('FCD')
+        } else if (per >= 60 && per < 70) {
+            console.log('First Class')
+        } else if (per >= 35 && per < 60) {
+            console.log('pass')
+        } else {
+            console.log('Fail')
+        }
+
+        //using teronary operator
+        (per < 0 || per > 100 || typeof(per) !== 'number' || isNaN(per) == true) ? console.log('Invalid'):
+            (per >= 70 && per <= 100) ? console.log('FCD') :
+            (per >= 60 && per < 70) ? console.log('First Class') :
+            (per >= 35 && per < 60) ? console.log('pass') : console.log('Fail')
+
+        //storing reult of ternory operator value into a varable and displaying it
+        var result = (per < 0 || per > 100 || typeof(per) !== 'number' || isNaN(per) == true) ? 'Invalid' :
+            (per >= 70 && per <= 100) ? 'FCD' :
+            (per >= 60 && per < 70) ? 'First Class' :
+            (per >= 35 && per < 60) ? 'pass' : 'Fail'
+        console.log('RESULT', result);
+    </script>
+</head>
+
+<body>
+    <button>click</button>
+</body>
+
+</html>

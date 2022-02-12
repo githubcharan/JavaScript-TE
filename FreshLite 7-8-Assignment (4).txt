@@ -1,0 +1,143 @@
+===================================================
+Assignment 1 ( Dec 20th )
+===================================================
+
+1. List 10 Javascript / Ecmascript Engines
+2. What is Javascript Engine
+3. What is diff bw Javascript and Ecmascript
+4. What is diff bw ECMA and Ecmascript 
+5. Data types in Javascript with example 
+6. Difference bw null and undefined 
+https://dorey.github.io/JavaScript-Equality-Table/
+7. Difference bw primitive and reference types
+8. Difference bw == and ===
+9. Calculate BMI and print results using 
+ternary operator and if else statements
+===================================================
+Assignment 2 ( Dec 21th )
+===================================================
+1. Create 5 objects without using new keyword 
+with one function
+2. Create 5 objects using new keyword 
+with one function 
+3. Go through JS Comparison tables - https://dorey.github.io/JavaScript-Equality-Table/ 
+4. Two examples for each primitive type 
+using typeof operator 
+5. Create 5 arrays without using new keyword 
+with all primitive types and object and 
+loop using for loop
+6. Create 5 arrays using new keyword 
+with all primitive types and object and 
+loop using for loop
+7. Display Day using Date object 
+	Input - new Date('Sept 12 2020')
+	Output - Sat, Sep 12 2020 
+
+
+===================================================
+Assignment 3 ( Dec 22nd )
+===================================================
+
+1. Five examples using for in loop, 
+for of loop - Array and Objects 
+2. WAP to find prime number or not 
+using four ways of functions 
+3. WAP for bubble sort using 
+four ways of functions 
+4. WAP to reverse string using 
+four ways of functions 
+5. WAP to find second largest number 
+using four ways of functions 
+6. WAP to print integer Value between 
+Two Numbers (Inclusive)
+	Input :
+	Enter a min value: 1
+	Enter a max value: 50
+	Output :
+	Random value between 1 and 50 is 47
+7. WAP to find factorial of number 
+using four ways of functions 
+8. WAP to print fibonacci series 
+using four ways of functions
+
+==================================================
+Assignment 4 ( Dec 23nd )
+===================================================
+1. What is callback function ? Write an example 
+2. What is Hoisting with example 
+3. What is the use of callback function
+4. Explain the Javascript order of execution OR Workflow of Javascript
+5. List and explain wierd javascript things - atleast 10
+6. What is temporal dead zone. Explain ?
+7. Give five examples for array methods	
+	a. forEach
+	b. push 
+	c. pop
+	d. shift 
+	e. unshift
+	f. includes
+	g. indexOf
+	h. isArray
+8. Difference bw var, let and const 
+9. Difference bw push and unshift 
+10. Difference bw pop and shift 
+11. What is Web Apis in javascript and list 10 web apis
+
+===================================================
+Assignment 5 ( Dec 24 )
+===================================================
+1. Explain find(), findIndex(), flat(), sort(), 
+reverse() methods 
+   of Array and five examples for these methods 	
+2. Explain hasOwnProperty(), toString(), Object.keys(), 
+   Object.values(), Object.entries(), Object.create(), Object.assign(), 
+   Object.freeze() methods of Object and five examples for these methods
+3. What is deepCopy and shallowCopy
+4. Difference b/w deepCopy and shallowCopy
+5. List 10 ES6 features
+6. List 3 ES7 features
+7. Difference bw splice and slice methods
+8. Give five examples for array methods
+	a. splice()
+	b. slice()
+9. What is Mutable and Immutable with an example 
+10. What happens in below scenarios 
+	const n = [10, 20 ,30 ]
+	const n1 = n
+	n.slice(0)
+11. Example for setTimeout(), setInterval(), clearTimeout, clearInterval
+12. Example for deepCopy and shallowCopy  
+
+===================================================
+Assignment 6 ( Dec 27 )
+===================================================
+
+1. Example for Array methods (map,filter,join,reduce) 
+   and string methods 
+2. Explain window, location, history, navigator objects 
+3. WAP to find geolocation5
+4. What is this keyword (Explain scenarios of this keyword)
+
+===================================================
+Assignment 7 ( Dec 28 )
+===================================================
+
+1. What is DOM ? Explain
+2. What is the use / advantages of DOM ?
+3. What is the diff b/w innerHTML and innerText and 
+textContent
+4. Difference bw display : none and visibility : hidden 
+5. Explain Event and EventListener in javascript 
+6. Explain onchange event with an example
+7. Form validation with input box, select and 
+options, checkbox and radiobutton using javascript
+	Name - Input box (Validation - only characters are allowed)
+	Age - input box  (Validation - Age should be greater than 0 and less than 150 )
+	Subjects Studied - CheckBoxes  (Validation - required)
+	Male or Female - RadioButton		   (Validation - required)
+	Password - Input Box				   (Validation - required , should consist 
+											atleast 1 lowerCase, 1 uppercase,
+                                             1 number and 1 special character)
+	Email - Input Box 						(Validation - valid email id )
+	Agree to terms and condition - CheckBox	(Validation - required)
+    State - Select and options (Validation - required)
